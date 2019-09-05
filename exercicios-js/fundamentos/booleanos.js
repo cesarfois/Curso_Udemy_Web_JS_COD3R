@@ -30,9 +30,9 @@ console.log(!!(variavelon = false))
 
 // usos
 console.log()
-console.log('' || null || 'primeiro' || 'segunda')
+console.log('' || null || 'primeiro' || 'segunda') // imprime o primeiro resultado verdadeiro
 
 console.log(1)
 let nome = ''
-console.log((nome || 'cesar'))
+console.log((nome || 'desconhecido')) // site com nome vazio
 
