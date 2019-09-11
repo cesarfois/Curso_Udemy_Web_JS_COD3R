@@ -4,6 +4,7 @@ console.log(Math.ceil(6.1))
 const obj1 = {}
 obj1.nome = 'Atributo1' // obj1['nome' = 'bola1'] é o mesmo
 
+// funcao para criar atributos enviados por parametro
 function Obj(nome){
     this.nome = nome
 }
