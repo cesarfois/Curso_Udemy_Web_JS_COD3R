@@ -9,5 +9,5 @@ const volvo = {
 }
 
 console.log(ferrari.__proto__)
-console.log(ferrari.__proto__ === Object.prototype)
+console.log(ferrari.__proto__ === Object.prototype) // sempre aponta para object proto.
 console.log(volvo.__proto__ === Object.prototype)
