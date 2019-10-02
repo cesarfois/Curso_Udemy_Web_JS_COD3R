@@ -27,3 +27,14 @@ console.log(aprovados)
 console.log(aprovados)
 aprovados.splice(1,0,'elemento1', 'elemento2')
 console.log(aprovados)
+console.log('\n---------------------------------------------------------------------\n')
+// Metodo slice retorna um novo array( posicao inicial, posicao final(nao incluida))
+const pilotos = ['vettel', 'alonso', 'raikkonen', 'massa']
+const pilotos1 = pilotos.slice(2) // senao identifica vai ate o final.
+console.log(pilotos1)
+console.log('\n---------------------------------------------------------------------\n')
+const pilotos2 = pilotos.slice(1, 4) // 4 nao incluso
+console.log(pilotos2)
+console.log('\n---------------------------------------------------------------------\n')
+const pilotos3 = pilotos.slice(-2) // pega os dois ultimos
+console.log(pilotos3)
