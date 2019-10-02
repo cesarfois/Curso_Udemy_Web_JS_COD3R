@@ -10,6 +10,7 @@ console.log(resultado)
 
 console.log('\n ===================  Utilizando Arrow ================ \n')
 // multiplicando x3 utilizando arrow function return implicito
+
 let resultado_x3 = nums.map( elemento => elemento * 3)
 console.log(resultado_x3)
 
