@@ -9,4 +9,4 @@ npm i nodemon //  is a utility that will monitor for any changes in your source 
 
 npm i -g nodemon //sempre pega o codigo mais atualizado otimo para desenvolvimento.
 
-para executar utilizar nodemon + nomedoarquivo.js
+para executar utilizar nodemon + nomedoarquivo.js, Comando rs faz um refresh
