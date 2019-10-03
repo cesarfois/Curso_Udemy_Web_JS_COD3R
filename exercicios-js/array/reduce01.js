@@ -1,5 +1,6 @@
 // percorrer um array, vai comparando os elementos no array 
 // existe um elemento acumulador/resultado e depois compara ou faz a proxima com o elemento na sequencia.
+// agregaçao num so valor.
 
 
 const alunos = [
