@@ -1,0 +1,12 @@
+node -v
+npm -v
+
+npm i lodash  // i de install ontains tools to simplify programming with strings, numbers, arrays, functions and objects. 
+                By convention, Lodash module is mapped to the underscore characte
+
+npm i nodemon //  is a utility that will monitor for any changes in your source and automatically
+                 restart your server. Perfect for development.
+
+npm i -g nodemon //sempre pega o codigo mais atualizado otimo para desenvolvimento.
+
+para executar utilizar nodemon + nomedoarquivo.js

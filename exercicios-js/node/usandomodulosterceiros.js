@@ -1,0 +1,6 @@
+
+// chamando o lodash nao precisa o aqui vo.
+const _ = require('lodash')
+
+// funcao numero randomico de 1 a 1000 com intervalo de
+setInterval(() => console.log(_.random(1,10)), 2000)
