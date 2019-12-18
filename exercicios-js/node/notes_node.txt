@@ -1,0 +1,14 @@
+cd node
+npm init // para iniciar um novo projeto
+
+npm i --save // save é utilizado para salvar como dependencias.
+npm i --save-dev // version utilizada somente para versionamento
+npm i --save-dev axios@0.17.1 -E // isto indica para instalar esta exatamente esta versao
+
+"^0.19.0"  mayor, minor , fix
+           // ^ indica que pode ser mudada a versao minor
+           // ~ indica que somente o ultimo digito fix pode ser mudado (aproximado)
+           //  sem nada somente pode ser usada essa versão
+           // cuidado as vezes nao deixa atualizar porque o pakage-lock.json e package.json tem que permitir.fix
+
+axios = cliente http - faz requisições

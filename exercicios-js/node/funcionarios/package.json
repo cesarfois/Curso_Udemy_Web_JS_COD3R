@@ -1,0 +1,22 @@
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "esta é minha direçao",
+  "main": "index.js",
+  "scripts": {
+    "test": "comando para testar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cesar.fois"
+  },
+  "keywords": [
+    "cesar.fois",
+    "project"
+  ],
+  "author": "autor javier acosta",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
