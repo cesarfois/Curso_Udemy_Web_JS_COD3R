@@ -1,0 +1,14 @@
+teste do postman
+
+npm init -y
+crea o arquivo completo
+
+npm i --save express@4.16.2 -E
+
+instalar a versao especifica
+
+npm start ... para utilizar o nodemon
+
+instalar body parser
+
+ npm -i --save body-parser
