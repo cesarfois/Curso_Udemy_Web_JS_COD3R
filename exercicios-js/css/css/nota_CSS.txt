@@ -1,0 +1,11 @@
+npm i -g http-server
+instalar servidor 
+
+para executar 
+
+http-server
+
+instalar plugin 
+preview
+
+fazer split e ctrl shift 
