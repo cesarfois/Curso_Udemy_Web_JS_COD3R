@@ -5,7 +5,71 @@
     <meta charset="UTF-8">
     <title>Position</title>
     <style>
+        /*  estilos para todas as div*/
+        div {
+            font-size: 60px;
+            padding: 30px;
+            border: solid 5px #222;
+        }
+
+        /* posição static desconsidera top e left seu posicionamento depende do 
+        conteudo e dos outros componentes */
+        .static {
+            position: static; /*posição por default*/
+            top: 100px;
+            left: 100px;
+            background-color: steelblue;
+        }
+
+        /* posição fixed, fixa numa parte da tela e independente da 
+        movimentaçao dos outros componentes ele fica fixo
+        seu posicao é de forma absoluta olhando o viewport*/
+
+        .fixed {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: tomato;
+        }
+
+        /* a posicao e relativa ao elemento anterior neste caso é o static */
+
+        .relative1 {
+            position: relative;
+            left: 50px;
+            top: 50;
+            background-color: seagreen;
+        }
+
+        /* utiliza o valor absoluto do viewport */
+
+        .absolute1 {
+            position: absolute;
+            left: 350px;
+            top: 120px;
+            background-color: violet;
+        }
+
         /* ... */
+        .relative2 {
+            position: relative;
+            left: 250;
+            top: 2000px;
+            width: 200px;
+            height: 200px;
+            background-color: slategrey;
+        }        
+        /* ... */
+        .absolute2 {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            width: 20px;
+            height: 20px;
+            background-color: orange;
+        }
+
+
     </style>
 </head>
 
