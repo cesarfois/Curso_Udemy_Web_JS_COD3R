@@ -50,7 +50,8 @@
             background-color: violet;
         }
 
-        /* ... */
+        /* relative2 é pai de absolute2 por isso o comportamento
+        do absolute2 é em relacao ao rectangulo do relative2 */
         .relative2 {
             position: relative;
             left: 250;
@@ -67,6 +68,17 @@
             width: 20px;
             height: 20px;
             background-color: orange;
+        }
+
+        /* quando o elemento chega no topo o elemento fica visibel,
+        fucionamento como a primeira linha do excel. */
+
+        .sticky {
+            position: -webkit-sticky; /* para o safari */
+            position: sticky;
+            background-color: #777;
+            top: 10px;
+
         }
 
 

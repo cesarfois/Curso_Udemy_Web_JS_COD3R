@@ -4,6 +4,8 @@ ctrl alt n atalho para executar o codigo js
 
 ctrl alt m finalizar o codigo.
 
-ctrl d  para selecao mulipla
+ctrl d  - para selecao mulipla
 
-alt para cima para abaixo alterna as linhas.
+alt para cima - para abaixo alterna as linhas.
+
+crtl espaço - desplega o menu de opçoes na linha de comando.
