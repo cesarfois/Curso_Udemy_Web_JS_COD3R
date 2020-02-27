@@ -14,7 +14,7 @@ export default {
 <style>
 @font-face {
     font-family: "RobotoMono";
-    src: url("./fonts/roboto-mono-thin.ttf")
+    src: url("./fonts/roboto-mono-thin.ttf");
 }
 
 * {
